@@ -4,7 +4,7 @@ fun main() {
 
 }
 
-class Person(
+class Person2(
     val name: String = "이름",
     var age: Int = 1
 ) {

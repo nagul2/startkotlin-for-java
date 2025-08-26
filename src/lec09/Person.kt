@@ -28,7 +28,7 @@ fun main() {
 //    var age: Int = age
 //}
 
-class Person(
+class Person1(
     val name: String,
     var age: Int
 ) {
