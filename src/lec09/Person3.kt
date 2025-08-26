@@ -27,10 +27,10 @@ class Person4(
 ) {
 
     // 함수 사용
-    fun getUppercaseName(): String =
-        this.name.uppercase()
+//    fun getUppercaseName(): String =
+//        this.name.uppercase()
 
     // custom getter
-    val uppercaseName: String =
-        this.name.uppercase()
+    val uppercaseName: String
+       get() = this.name.uppercase()
 }
