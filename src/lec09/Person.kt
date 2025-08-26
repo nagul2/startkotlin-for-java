@@ -13,8 +13,8 @@ fun main() {
 //    javaPerson.age = 10
 //    println(javaPerson.age)
 
-    val person = Person("이름만 넣기")
-    val person2 = Person()
+    val person = Person1("이름만 넣기")
+    val person2 = Person1()
 }
 
 //public class Person constructor(name: String, age: Int) {
