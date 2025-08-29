@@ -13,7 +13,7 @@ fun main() {
     }
 
     fun getNumberOrNullV2(): Int? {
-        return number.takeIf { n -> n <= 0 }
+        return number.takeIf { n -> n >= 0 }
     }
 
     fun getNumberOrNullV3(): Int? {
